@@ -57,3 +57,36 @@ function bmi(weight, height) {
 
 let myBmi = bmi(82, 1.78);
 console.log("your bmi is equal to " + myBmi);
+
+// random number 
+var n = Math.random();
+
+// if statement
+if (n > 0.7 && n << 0.3) {
+    console.log("Ok");
+} else {
+    console.log("Not Ok");
+}
+
+// collections
+var names = ["ali", "ahmad", "reza", 5, 15, true];
+var a = names[0];
+names.length;
+names.push("mohammad");
+names.pop();
+
+// while loop
+var i = 0;
+while (i < names.length)
+{
+    console.log(names[i]);
+    i++;
+}
+
+// for loops
+for (var i = 0; i < 100; i++)
+{
+    console.log(i);
+}
+
+// DOM
