@@ -6,8 +6,9 @@ var started = false;
 var level = 0;
 
 // Start the game with any keyboard key
-$(document).keydown(function () {
+$(document).on('keydown pointerdown', function () {
   if (!started) {
+    started = true; // set immediately to avoid multiple triggers
     startGame();
   }
 });
